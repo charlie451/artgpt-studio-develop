@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'remixicon';
+  src: url('./assets/fonts/remixIcon/remixicon.eot'); /* IE9*/
+  src:
+    url('./assets/fonts/remixIcon/remixicon.eot') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./assets/fonts/remixIcon/remixicon.woff2')
+      format('woff2'),
+    url('./assets/fonts/remixIcon/remixicon.woff') format('woff'),
+    url('./assets/fonts/remixIcon/remixicon.ttf') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+      url('./assets/fonts/remixIcon/remixicon.svg') format('svg'); /* iOS 4.1- */
+  font-display: swap;
+}
+
+[class^='ri-'],
+[class*=' ri-'] {
+  font-family: 'remixicon';
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+
+@font-face {
+  font-family: 'kccChassam';
+  src: url('./assets/fonts//kccChassam/KCC-Chassam.ttf');
+}
